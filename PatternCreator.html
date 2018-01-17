@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="styling.css">
+	<title>
+		SVG/JS/DOM Pattern Creator
+	</title>
+</head>
+
+<body>
+	<script type="text/javascript" src="functions.js"></script>
+	<div id="patternAContainer">
+		<button onclick="rotatePattern('cubes-svg')">Rotate 90º</button>
+		<button onclick="spaceIn()">Decrease Spaces</button>
+		<button onclick="spaceOut()">Increase Spaces</button>
+		<button onclick="enlargePattern('cubes-svg')">Enlarge/Shrink</button>
+		<br>
+		<object id="cubes-svg" type="image/svg+xml" data="PatternCubes.svg"></object>
+	</div>
+	<div id="patternBContainer">
+		<button onclick="rotatePattern('bubbles-svg')">Rotate 90º</button>
+		<button onclick="invertColours()">Invert Colours</button>
+		<button onclick="enlargePattern('bubbles-svg')">Enlarge/Shrink</button>
+		<br>
+		<object id="bubbles-svg" type="image/svg+xml" data="PatternBubbleGlobes.svg"></object>
+	</div>
+</body>
+
+</html>

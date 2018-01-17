@@ -1,0 +1,13 @@
+body {
+     margin-top: 0;
+     margin-bottom: 0;
+}
+
+div {
+	height: 33%;
+	float:center;
+     display: block;
+     border: 1px solid white;
+	margin: 0 33%;
+	overflow: hidden;
+}
